@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="05-calculator.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="application-controls">
+            <div class="logo">
+                <img class="app" src="resources/calculator-logo.jpg"/>
+                <span class="app">Calculator</span>
+            </div>
+            <div class="app-buttons">
+                <img src="resources/window-buttons.jpg" alt=""/>
+            </div>
+        </div>
+        <div class="menu">
+            <label class="menu-items" for="">View</label><label class="menu-items" for="">Edit</label><label class="menu-items" for="">Help</label>
+        </div>
+        <div class="main-panel">
+            <div class="enter-field"></div>
+            <div class="binary-field"></div>
+
+            <div class="radio-div">
+                <input type="radio" name="number-system" value="hex" id="hex" />
+                <label for="hex">Hex</label><br/>
+                <input type="radio" name="number-system" value="dec" id="dec" checked/>
+                <label for="dec">Dec</label><br/>
+                <input type="radio" name="number-system" value="oct" id="oct"/>
+                <label for="oct">Oct</label><br/>
+                <input type="radio" name="number-system" value="bin" id="bin"/>
+                <label for="bin">Bin</label>
+            </div>
+            <div class="button"></div>
+            <div class="button operator">Mod</div>
+            <div class="button flat">A</div>
+            <div class="button flat">MC</div>
+            <div class="button flat">MR</div>
+            <div class="button flat">MS</div>
+            <div class="button flat">M+</div>
+            <div class="button flat">M-</div>
+            <div class="button operator">(</div>
+            <div class="button operator">)</div>
+            <div class="button flat">B</div>
+            <div class="button operator">&#8592</div>
+            <div class="button operator">CE</div>
+            <div class="button operator">C</div>
+            <div class="button operator">&plusmn;</div>
+            <div class="button flat">&radic;</div>
+            <div class="button operator">RoL</div>
+            <div class="button operator">RoR</div>
+            <div class="button flat">C</div>
+            <div class="button number">7</div>
+            <div class="button number">8</div>
+            <div class="button number">9</div>
+            <div class="button operator">/</div>
+            <div class="button flat">%</div>
+
+            <div class="radio-div">
+                <input type="radio" name="bytes" value="qword" id="qword" checked/>
+                <label for="qword">Qword</label><br/>
+                <input type="radio" name="bytes" value="dword" id="dword"/>
+                <label for="dword">Dword</label><br/>
+                <input type="radio" name="bytes" value="word" id="word"/>
+                <label for="word">Word</label><br/>
+                <input type="radio" name="bytes" value="byte" id="byte"/>
+                <label for="byte">Byte</label>
+            </div>
+            <div class="button operator">Or</div>
+            <div class="button operator">Xor</div>
+            <div class="button flat">D</div>
+            <div class="button number">4</div>
+            <div class="button number">5</div>
+            <div class="button number">6</div>
+            <div class="button operator">*</div>
+            <div class="button flat">1/x</div>
+            <div class="button operator">Lsh</div>
+            <div class="button operator">Rsh</div>
+            <div class="button flat">E</div>
+            <div class="button number">1</div>
+            <div class="button number">2</div>
+            <div class="button number">3</div>
+            <div class="button operator">-</div>
+            <div class="button operator double-button-vertical">=</div>
+            <div class="bottom-row">
+                <div class="button operator">Not</div>
+                <div class="button operator">And</div>
+                <div class="button flat">F</div>
+                <div class="button number double-button-horizontal">0</div>
+                <div class="button flat">,</div>
+                <div class="button operator">+</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

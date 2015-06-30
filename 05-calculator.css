@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: lightgray;
+}
+.container {
+    width: 420px;
+    height: 386px;
+    background-color: lightblue;
+    border-radius: 3px 3px 0 0;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid deepskyblue;
+    border-bottom: 1px solid deepskyblue;
+    margin: 30px;
+    background: url("resources/calculator-background.png");
+}
+.application-controls {
+    height: 20px;
+    width: 400px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    margin-top: 10px;
+    font-size: 12px;
+    padding-top: 0;
+}
+.app {
+    vertical-align: middle;
+}
+.logo {
+    display: inline-block;
+}
+.app-buttons {
+    display: inline-block;
+    float: right;
+    box-sizing: border-box;
+}
+.menu {
+    height: 21px;
+    width: 405px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    padding-left: 5px;
+    background: linear-gradient(white 45%, rgb(221, 227,242) 55%);
+    box-sizing: border-box;
+    border-bottom: 2px solid darkgrey;
+}
+.menu-items {
+    margin-right: 10px;
+    font-size: 12px;
+    position: relative;
+    top: 3px;
+}
+.main-panel {
+    height: 330px;
+    width: 405px;
+    margin: 0 auto;
+    background: linear-gradient(rgb(237,244,252) 20%, rgb(217,228,240) 40%);
+    box-sizing: border-box;
+    padding: 10px;
+}
+.enter-field {
+    /*margin: 0 auto;*/
+    width: 380px;
+    height: 47px;
+    border-radius: 3px;
+    border: 1px solid darkgrey;
+    background: linear-gradient(rgb(217,228,240) 20%,rgb(255,255,255)  80%);
+}
+.binary-field {
+    /*margin: 0 auto;*/
+    width: 380px;
+    height: 58px;
+    border-radius: 3px;
+    border: 1px solid darkgrey;
+    margin-top: 5px;
+}
+.button {
+    display: inline-block;
+    float: left;
+    width: 35px;
+    height: 27px;
+    margin-right: 3.8px;
+    margin-top: 5px;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.button:hover {
+    border: 2px solid darkolivegreen;
+}
+.radio-div {
+    display: inline-block;
+    float: left;
+    width: 70px;
+    height: 91.5px;
+    margin-right: 4.6px;
+    margin-top: 4px;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 11px;
+}
+.operator {
+    background: linear-gradient(rgb(238,244,250) 10%,rgb(217,228,240) 60%);
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 5px;
+}
+.number {
+    background: linear-gradient(rgb(255,255,255) 10%,rgb(234,241,249) 50%);
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 5px;
+}
+.flat {
+    background-color: rgb(217,228,240);
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 5px;
+}
+.double-button-vertical {
+    height: 59px;
+    clear: inherit;
+    padding-top: 22px;
+}
+.double-button-horizontal {
+    width: 73.8px;
+}
+.bottom-row {
+    position: relative;
+    top: -32px;
+    left: 73.8px;
+}

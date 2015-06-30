@@ -1,0 +1,12 @@
+div {
+    background-color: coral;
+    border: 1px solid cornflowerblue;
+    width: 95%;
+    border-radius: 60px;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 900px;
+    box-sizing: border-box;
+}

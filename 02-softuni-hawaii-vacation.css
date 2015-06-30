@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Haiwaiche;
+    src: url(resources/Animated.ttf);
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid darkseagreen;
+    position: relative;
+}
+
+.beach {
+    width: 900px;
+    height: 600px;
+    background: url("resources/HawaiiBackground.png");
+    position: absolute;
+    top: -0px;
+}
+
+.sky {
+    width: 900px;
+    height: 400px;
+    background: radial-gradient(circle farthest-side at 17% 27%, #ffffff 2%, #fffaad 10%,rgba(255, 255, 255, 1) 15%,#1164d8 70%); /* W3C */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.headline {
+    font-family: Haiwaiche;
+    color: rgb(251,187,56);
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    right: 380px;
+}
+
+.vlado-g {
+    background: url("resources/VladoGHula.png") no-repeat;
+    /*border: 1px solid red;*/
+    width: 265px;
+    height: 350px;
+    position: absolute;
+    left: 45px;
+    top: 223px;
+}
+
+.petia {
+    background: url("resources/PetiaHula.png") no-repeat;
+    /*border: 1px solid red;*/
+    width: 203px;
+    height: 354px;
+    position: absolute;
+    left: 205px;
+    top: 201px;
+}
+
+.tedi {
+    background: url("resources/TediHula.png") no-repeat;
+    /*border: 1px solid red;*/
+    width: 156px;
+    height: 220px;
+    position: absolute;
+    left: 263px;
+    top: 362px;
+}
+
+.nakov {
+    background: url("resources/NakovHula.png") no-repeat;
+    /*border: 1px solid red;*/
+    width: 215px;
+    height: 400px;
+    position: absolute;
+    left: 413px;
+    top: 160px;
+}
+
+.alex {
+    background: url("resources/AlexHula.png") no-repeat;
+    /*border: 1px solid red;*/
+    width: 238px;
+    height: 375px;
+    position: absolute;
+    left: 505px;
+    top: 210px;
+}
+
+.vlado-k {
+    background: url("resources/VladoKHula.png") no-repeat;
+    /*border: 1px solid red;*/
+    width: 213px;
+    height: 350px;
+    position: absolute;
+    left: 673px;
+    top: 235px;
+}

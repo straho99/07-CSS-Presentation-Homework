@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Styling HTML forms</title>
+    <link rel="stylesheet" href="03-styling-html-forms.css"/>
+</head>
+<body>
+    <div class="form-container">
+        <form action="">
+
+            <h2>Step 1: Your details</h2>
+            <div class="container">
+                <div class="transparent"></div>
+                <label class="insiders labels" for="">Name</label>
+                <input class="insiders inputs" type="text" placeholder="First and last name"/>
+            </div>
+
+            <div class="container">
+                <div class="transparent"></div>
+                <label class="insiders labels" for="">Email</label>
+                <input class="insiders inputs" type="text" placeholder="example@domain.com"/>
+            </div>
+
+            <div class="container">
+                <div class="transparent"></div>
+                <label class="insiders labels" for="">Phone</label>
+                <input class="insiders inputs" type="text" placeholder="e.g. +44750000000"/>
+            </div>
+
+            <h2>Step 2: Delivery address</h2>
+
+            <div class="container big-container">
+                <div class="transparent"></div>
+                <label class="insiders big-insiders alligned labels" for="">Address</label>
+                <textarea class="insiders big-insiders area alligned" name="so"></textarea>
+            </div>
+            <div class="container">
+                <div class="transparent"></div>
+                <label class="insiders labels" for="">Post code</label>
+                <input class="insiders inputs" type="text" placeholder=""/>
+            </div>
+            <div class="container">
+                <div class="transparent"></div>
+                <label class="insiders labels" for="">Country</label>
+                <input class="insiders inputs" type="text" placeholder=""/>
+            </div>
+
+            <h2>Step 3: Card details</h2>
+
+            <div class="container big-container radio-container">
+                <div class="transparent"></div>
+                <label class="insiders big-insiders radio-insiders alligned labels" for="">Card type</label>
+
+                <div class="big-insiders radio-insiders">
+                    <input class="centered" type="radio" name="type" value="visa" id="visa"/>
+                    <img class="centered" src="resources/visa%20(1).jpg" alt="Visa logo"/>
+                    <label class="centered" for="visa">VISA</label>
+
+                    <input class="centered" type="radio" name="type" value="amex" id="amex"/>
+                    <img class="centered" src="resources/american-express.jpg" alt="AmEx logo"/>
+                    <label class="centered" for="amex">AmEx</label>
+
+                    <input class="centered" type="radio" name="type" value="mastercard" id="mastercard"/>
+                    <img class="centered" src="resources/master-card%20(1).jpg" alt="MasterCard logo"/>
+                    <label class="centered" for="mastercard">Mastercard</label>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="transparent"></div>
+                <label class="insiders labels" for="">Card number</label>
+                <input class="insiders inputs" type="text" placeholder=""/>
+            </div>
+            <div class="container">
+                <div class="transparent"></div>
+                <label class="insiders labels" for="">Security code</label>
+                <input class="insiders inputs" type="text" placeholder=""/>
+            </div>
+            <div class="container">
+                <div class="transparent"></div>
+                <label class="insiders labels" for="">Name on card</label>
+                <input class="insiders inputs" type="text" placeholder="exact name as on the card"/>
+            </div>
+
+            <input type="submit" class="submit-button" value="Buy it!"/>
+
+        </form>
+    </div>
+</body>
+</html>
